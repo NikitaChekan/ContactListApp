@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ContactListApp
 //
-//  Created by jopootrivatel on 18.10.2022.
+//  Created by Nikita Chekan on 18.10.2022.
 //
 
 import UIKit
