@@ -2,7 +2,7 @@
 //  ContactDetailsViewController.swift
 //  ContactListApp
 //
-//  Created by jopootrivatel on 18.10.2022.
+//  Created by Nikita Chekan on 18.10.2022.
 //
 
 import UIKit
@@ -17,9 +17,9 @@ class ContactDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = contact.fullname
-        emailLabel.text = contact.email
-        phoneLabel.text = contact.phone
+        title = contact.fullname
+        emailLabel.text = "Email: \(contact.email)"
+        phoneLabel.text = "Phone: \(contact.phone)"
     }
 
 }
